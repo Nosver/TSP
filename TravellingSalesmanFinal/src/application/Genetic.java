@@ -106,7 +106,7 @@ class Individual{
         System.out.println("Evolutionary Algorithm Best Individual: ");
         
         for(int i=0; i < path.size(); i++){
-            System.out.print(graph.nodes.get(path.get(i)).name);
+            System.out.print(graph.nodes.get(path.get(i)).getIndex());
             if(i != path.size()-1){ System.out.print(" -> ");}
         }
         System.out.println("\nCost:\t\t" + cost); 
