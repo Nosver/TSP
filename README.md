@@ -33,23 +33,3 @@ To use this project:
 5. Create a `population` object with the initialized graph.
 6. Call the appropriate methods to run either the Held-Karp algorithm or the genetic algorithm.
 7. Access the best individual's path and cost to obtain the optimal solution to the TSP.
-
-## Example Usage
-
-```java
-// Initialize adjacency matrix with distances between cities
-ArrayList<ArrayList<Integer>> adjacencyMatrix = new ArrayList<>();
-// Populate adjacencyMatrix with distances
-
-// Initialize graph with adjacency matrix
-Graph graph = new Graph(adjacencyMatrix);
-
-// Create population object with initialized graph
-population pop = new population(graph);
-
-// Run genetic algorithm to find optimal solution
-pop.nextGeneration();
-
-// Access best individual's path and cost
-Individual bestIndividual = pop.bestIndividual;
-bestIndividual.printIndividual();
