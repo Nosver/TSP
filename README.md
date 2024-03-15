@@ -8,7 +8,7 @@ This Java project provides an implementation of the TSP solution using two diffe
 
 1. **Held-Karp Algorithm**: Implemented in the `HeldKarp` class, this algorithm utilizes dynamic programming to find the optimal solution for smaller instances of the TSP. It efficiently calculates the shortest route by considering all possible combinations of cities.
 
-2. **Genetic Algorithm**: Implemented in the `Genetic` class, this approach uses evolutionary principles to iteratively improve solutions. It starts with a population of random routes and evolves them over generations, selecting the best individuals for reproduction and introducing variation through mutation and crossover operations.
+2. **Genetic Algorithm**: Implemented in the `Genetic` class, this approach uses evolutionary principles to iteratively improve solutions. It starts with a population of random routes and evolves them over generations, selecting the best individuals for reproduction and introducing variation through mutation operation.
 
 ## Project Structure
 
